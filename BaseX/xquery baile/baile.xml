@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<bailes>
+  <baile>
+	<nombre>Tango</nombre>
+	<precio moneda="Dolares" cuota="Trimestral">75</precio>
+	<comienzo>01/02/2024</comienzo>
+	<fin>20/02/2024</fin>
+	<profesor>Juan Luis</profesor>
+	<sala>103</sala>
+	<plazas>15</plazas>
+  </baile>
+ 
+  <baile>
+	<nombre>Salsa</nombre>
+	<precio moneda="Dolares" cuota="Trimestral">75</precio>
+	<comienzo>01/02/2024</comienzo>
+	<fin>20/02/2024</fin>  
+	<sala>103</sala>
+	<plazas>15</plazas>
+  </baile>
+</bailes>
