@@ -4,7 +4,8 @@
   <RefArticulo>10</RefArticulo>
   <ReferenciaProveedor>100</ReferenciaProveedor>
   <NombreArticulo>huevos</NombreArticulo>
-  <NombreCategoria>alimentación</NombreCategoria>
+  <RefPedido>3</RefPedido>
+  <NombreCategoria>bebidas</NombreCategoria>
   <PrecioUnidad>30</PrecioUnidad>
   <UnidadesExistencia>40</UnidadesExistencia>
 </articulos>
@@ -12,6 +13,7 @@
   <RefCliente>1</RefCliente>
   <NombreCliente>Juan</NombreCliente>
   <DireccionCliente>Taco</DireccionCliente>
+  <RefPedido>3</RefPedido>
   <CiudadCliente>París</CiudadCliente>
   <CodPostalCliente>38206</CodPostalCliente>
   <PaisCliente>Francia</PaisCliente>
