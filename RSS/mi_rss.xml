@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rss version="2.0">
+<channel>
+    <title>Mi canales RSS</title>
+    <link>http://lili.infinityfreeapp.com</link>
+    <description>Noticias de interés</description>
+    <item>
+        <title>Noticias de interés de El País</title>
+        <link>https://elpais.com/</link>
+        <description>Noticias sobre El País</description>
+    </item>
+</channel>
+</rss>

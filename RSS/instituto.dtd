@@ -1,0 +1,10 @@
+<!ELEMENT instituto (clase+)>
+<!ELEMENT clase (alumno+)>
+<!ATTLIST clase
+  grupo CDATA #REQUIRED
+  curso CDATA #REQUIRED>
+<!ATTLIST alumno
+  sexo (H|M) #REQUIRED
+  cial CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCATA)>

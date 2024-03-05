@@ -1,0 +1,22 @@
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-es">
+   <title type="text">Mi canal de RSS en Atom </title>
+   <updated>2023-10-17T19:00:46Z</updated>
+   <link rel="self" type="application/atom+xml" href="if0_35256162/mi_atom.atom"/>
+   <link rel="alternate" type="text/html" href="http://lili.infinityfreeapp.com"/>
+   <id>http://lili.infinityfreeapp.com</id>
+   <author>
+       <name>Lili Guo Zeng</name>
+       <email>tareas6699@gmail.com </email>
+   </author>
+   <entry>
+       <title>Noticias del País</title>
+       <link rel="alternate" type="text/html" href="http://elpais.com/"/>
+       <updated>2023-10-17T19:00:46Z</updated>
+       <id>http://elpais.com</id>
+       <author>
+           <name>Lili Guo Zeng</name>
+           <email>tareas6699@gmail.com</email>
+       </author>
+       <summary>Noticias interesantes</summary>
+   </entry>
+</feed>
