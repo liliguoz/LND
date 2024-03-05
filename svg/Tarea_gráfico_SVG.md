@@ -1,3 +1,4 @@
+```s
 <svg width="250" height="250" viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg">
   <!-- Cuadrado exterior con bordes más gruesos -->
   <rect x="10" y="10" width="190" height="150" fill="none" stroke="black" stroke-width="4"/>
@@ -20,3 +21,5 @@
   <text x="23%" y="140" text-anchor="middle" alignment-baseline="middle" font-family="Arial" font-size="16" font-style="italic" font-weight="bold" fill="black">
     +Actual()
   </text>
+</svg>
+```
