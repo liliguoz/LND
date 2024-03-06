@@ -9,32 +9,98 @@ table, th, td {
 </head>
 <body>
 
-<h2>Table With Border</h2>
+<h2>Tabla 2</h2>
 
-<p>Use the CSS border property to add a border to the table.</p>
-
-<table style="width:100%">
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th> 
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
-  </tr>
-  <tr>
-    <td>John</td>
-    <td>Doe</td>
-    <td>80</td>
-  </tr>
+<table>
+	<tbody>
+		<tr align="center">
+			<td rowspan="2"></td>
+			<td colspan="2">1º eval</td>
+			<td colspan="2">2º eval</td>
+			<td colspan="2">3º eval</td>
+		</tr>
+		<tr align="center">
+			<td style="background-color:green;">Aprobados</td>
+			<td style="background-color: red;">Suspendidos</td>
+			<td style="background-color:green;">Aprobados</td>
+			<td style="background-color: red;">Suspendidos</td>
+			<td style="background-color: green;">Aprobados</td>
+			<td style="background-color: red;">Suspendidos</td>
+		</tr>
+		<tr>
+			<td>Informática</td>
+			<td>20</td>
+			<td>2</td>
+			<td>19</td>
+			<td>3</td>
+			<td>22</td>
+			<td>0</td>
+		</tr>
+		<tr>
+			<td>Mátemáticas</td>
+			<td>10</td>
+			<td>12</td>
+			<td>15</td>
+			<td>7</td>
+			<td>12</td>
+			<td>10</td>
+		</tr>
+	</tbody>
 </table>
 
+<br>
+
+<table>
+	<tbody>
+		<tr>
+			<td>Horas</td>
+			<td>Lunes</td>
+			<td>Martes</td>
+			<td>Miércoles</td>
+			<td>Jueves</td>
+			<td>Viernes</td>
+		</tr>
+		<tr>
+			<td>8:00-9:00</td>
+			<td rowspan="2" style="background-color: red;">Matemáticas</td>
+			<td style="background-color: tomato;">Lengua</td>
+			<td>Música</td>
+			<td></td>
+			<td rowspan="2" style="background-color: red;">Matemáticas</td>
+		</tr>
+		<tr>
+			<td>9:00-10:00</td>
+			<td>Inglés</td>
+			<td>Inglés</td>
+			<td style="background-color: pink;">E.física</td>
+		</tr>
+		<tr>
+			<td>10:00-10:30</td>
+			<td colspan="5" style="background-color: green;">Recreo</td>
+		</tr>
+		<tr>
+			<td>10.30-11:30</td>
+			<td style="background-color: pink;">E.física</td>
+			<td>Valenciano</td>
+			<td rowspan="2" style="background-color: tomato;">Lengua</td>
+			<td style="background-color: yellow;">Informática</td>
+			<td>Inglés</td>
+		</tr>
+		<tr>
+			<td>11:30-12:30</td>
+			<td>Música</td>
+			<td style="background-color: pink;">E.física</td>
+			<td rowspan="2" style="background-color: red;">Matemáticas</td>
+			<td style="background-color: yellow;">Informática</td>
+		</tr>
+		<tr>
+			<td>12:30-13:30</td>
+			<td></td>
+			<td style="background-color: yellow;">Informática</td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
 </body>
 </html>
