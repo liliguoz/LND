@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="iname"> Nombre: </label>
+        <input type="text" id="iname" name="Nombre"> 
+        <input type="submit">
+        <br> <br>
+
+        <label for="iapellido">Apellidos: </label>
+        <input type="text" id="iapellido" name="Apellidos"> 
+        <input type="submit" value="mandar">
+        <br> <br>
+
+        <label for="email"> Email: </label>
+        <input type="email" id="email" name="Email">
+        <input type="submit" value="mandar">
+        <br><br>
+
+        <label for id="epass"> Contraseña: </label>
+        <input id="epass" type="password" name="Contraseña">
+
+        <!--Resetea todos los campos del formulario-->
+        <input type="reset" value="borrar"> <br><br>
+
+        <!--Si el name tiene diferente nombre se podrán seleccionar varias opciones, pero si quieres que solo se quiera seleccionar una se tienen que llamar todos iguales-->
+        <input type="radio" name="color"> 
+            <label for="red" name="color">Rojo</label> <br>
+        <input type="radio" name="color">
+            <label for="blue" name="color">Azul</label> <br>
+        <input type="radio" name="color">
+            <label for="green" name="color">Verde</label> <br> <br>
+        
+        <!--Se hace lo mismo que lo anterior pero en cuadrado y se pueden marcar ambas-->
+        <input type="checkbox" name="orange">
+            <label for="orange" name="orange">Naranja</label> <br>
+        <input type="checkbox" name="purple">
+            <label for="purple" name="purple">Violeta</label> <br><br>
+        
+        <!--Puedes elegir el color que quieras-->
+        <input type="color" name="color">
+        <br> <br>
+
+        <input type="button"  onclick="alert('Hola')" value="Aceptar"> <br><br>
+
+        <!--Te permite elegir la fecha--> 
+        <input type="date" name="fecha"> <br><br>
+
+        <!--Fecha y hora-->
+        <input type="datetime-local" name="fechayhoralocal"> <br><br>
+
+        <!--Puedes introducir un fichero de tu propio ordenador-->
+        <input type="file" name="fichero"> <br><br>
+
+        <!--Elegir mes-->
+        <input type="month" name="mes"> <br><br>
+        
+        <!--Elegir números-->
+        <input type="number" name="numero"> <br><br>
+
+        <!--Rangos de mínimo y máximo-->
+        <input type="range" min="0" max="100"> <br><br>
+
+        <!--Busca palabras-->
+        <input type="search" name="buscar" id=""> <br><br>
+
+        <!--Busca teléfonos-->
+        <input type="tel" name="phone"> <br><br>
+
+        <!--Buscar una hora-->
+        <input type="time" name="hora"> <br><br>
+
+        <!--Busca url-->
+        <input type="url" name="url"> <br><br>
+
+        <!--Busca semana-->
+        <input type="week" name="semana"> <br><br>
+
+        <!--Agrupa varios controles en un mismo formulario-->
+        <input type="fileset" name="fichero">
+    </form>
+</body>
+</html>
