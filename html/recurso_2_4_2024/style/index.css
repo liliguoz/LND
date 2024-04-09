@@ -1,0 +1,19 @@
+header {
+    background-color: blueviolet;
+    height: 180px;
+}
+
+nav {
+    background-color: bisque;
+    float: left;
+    width: 10%;
+    text-align: left;
+    height: 800px;
+}
+
+main iframe {
+    float: left;
+    background-color: pink;
+    width: 90%;
+    height: 500px;
+}
