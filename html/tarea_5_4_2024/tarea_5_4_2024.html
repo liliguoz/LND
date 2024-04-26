@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Lili Guo Zeng</h3>
+    <form>
+        <fieldset>
+            <legend>Datos del propietario</legend>
+            <label for="iname"> Nombre: </label>
+            <input type="text" id="iname" name="Nombre"> 
+            <br>
+            Sexo:
+            <input type="radio" name="sexo" checked> 
+            <label for="" name="color">Hombre</label>
+            <input type="radio" name="sexo">
+            <label for="blue" name="color">Mujer</label> 
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos del vehículo</legend>
+            <label for="imarca"> Marca/modelo: </label>
+            <input type="text" id="imarca" name="Marca/modelo">
+            <br> <br>
+            <label for="imatricula"> Matrícula: </label> 
+            <input type="text" id="imatricula" name="Matricula">
+            <br> <br>
+            <label for="caracteristicas">Características:</label>
+            <select name="caracteristicas" id="caracteristicas" multiple>
+                <option value="Utilitario" selected>Utilitario</option>
+                <option value="Todo Terreno">Todo Terreno</option>
+                <option value="Alta Gama" selected>Alta Gama</option>
+            </select>
+            <br><br>
+            <label for="otros"> Otros datos: </label>
+            <br>
+            <input type="checkbox" name="servofreno" checked>
+            <label for="servofreno" name="servofreno">Servofrenos</label>
+            <input type="checkbox" name="elevalunas" checked>
+            <label for="elevalunas" name="elevalunas">Elevalunas</label>
+            <input type="checkbox" name="remolque">
+            <label for="remolque" name="remolque">Remolque</label>
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
