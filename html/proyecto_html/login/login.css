@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    position: relative; 
+}
+
+.button {
+    position: absolute;
+    top: 20px;
+    right: 20px; 
+    padding: 10px 20px;
+    background-color: #4088a4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #4088a4;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+    text-align: left;
+}
+
+.input-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.form-toggle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.toggle-btn {
+    background-color: #4088a4;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 45%; 
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin: 0 5%; /* Margen para separar los botones */
+}
+
+#login:checked ~ .form-toggle #loginBtn,
+#register:checked ~ .form-toggle #registerBtn {
+    background-color: #d06c58;
+}
+
+.toggle-btn:hover {
+    background-color: #4088a4;
+}
+
+.form {
+    display: none;
+}
+
+#login:checked ~ #loginForm,
+#register:checked ~ #registerForm {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+button[type="submit"] {
+    background-color: #4088a4;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #4088a4;
+}

@@ -1,0 +1,153 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+}
+
+header {
+    background-color: rgb(104, 129, 137);
+    padding: 20px;
+    text-align: center;
+    color: #fff; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+    position: relative; /* Posición relativa para que los elementos hijos puedan tener posición absoluta */
+}
+
+.button-login {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    top: 20px;
+    right: 20px; 
+    padding: 10px 20px;
+    background-color: #e48787;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button-login:hover {
+    background-color: #a9c7d3;
+}
+
+header h1 {
+    margin: 0; /* Elimina el margen predeterminado del encabezado */
+    font-size: 36px; /* Tamaño del texto del encabezado */
+    font-family: fantasy;
+}
+
+nav {
+    background-color: #9ec3d1; 
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family: fantasy;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px; /* Espacio entre los enlaces */
+    transition: color 0.3s; /* Transición suave del color del texto */
+}
+
+nav a:hover {
+    color: #4e6bff; /* Color del texto al pasar el cursor sobre los enlaces */
+}
+
+section {
+    padding: 20px;
+}
+
+#materiales {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(270deg, #4b525b, #6184c9, #36304c);
+    background-size: 600% 600%;
+    animation: backgroundAnimation 10s ease infinite;
+    border-radius: 5px;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    animation: tituloAnimacion 1s ease-in-out infinite alternate;
+}
+
+@keyframes tituloAnimacion {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-5px);
+    }
+}
+
+ul {
+    background-color: lavender;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Estilos para el recuadro de la lista de materiales */
+#materiales h4 {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+#pasos h4 {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+ol {
+    background-color: lavender;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(204, 106, 106);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(204, 106, 106);
+}

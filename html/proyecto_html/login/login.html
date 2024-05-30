@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Login/Registro</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="form-container">
+        <input type="radio" name="toggle" id="login" checked>
+        <input type="radio" name="toggle" id="register">
+        
+        <div class="form-toggle">
+            <label for="login" class="toggle-btn" id="loginBtn">Iniciar Sesión</label>
+            <label for="register" class="toggle-btn" id="registerBtn">Registrarse</label>
+        </div>
+        
+        <form id="loginForm" class="form">
+            <h2>Iniciar Sesión</h2>
+            <label for="login-username">Usuario:</label>
+            <input type="text" id="login-username" name="username" required>
+            <br>
+            <label for="login-password">Contraseña:</label>
+            <input type="password" id="login-password" name="password" required>
+            <br>
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+        
+        <form id="registerForm" class="form">
+            <h2>Registrarse</h2>
+            <label for="register-username">Usuario:</label>
+            <input type="text" id="register-username" name="username" required>
+            <br>
+            <label for="register-email">Correo Electrónico:</label>
+            <input type="email" id="register-email" name="email" required>
+            <br>
+            <label for="register-password">Contraseña:</label>
+            <input type="password" id="register-password" name="password" required>
+            <br>
+            <button type="submit">Registrarse</button>
+        </form>
+    </div>
+</body>
+</html>

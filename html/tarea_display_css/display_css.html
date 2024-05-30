@@ -1,0 +1,81 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="author" content="Marina Giacomaniello Castro"/>
+        <title></title>
+        <style type="text/css" >
+
+            .none {
+                list-style-type: none;
+                border-top-left-radius: 30px;
+                border-bottom-left-radius: 30px;
+                width: 500px;
+                border: 3px solid blue;
+            }
+
+            .square {
+                list-style-type: square;
+                background-color: #C6BD2D;
+                display: none;
+            }
+
+            .lower-roman {
+                list-style-type: lower-roman;
+                background-color: #677EC1;
+                margin-left: -40px;
+                opacity: 80%;
+                display: none;
+            }
+
+            .decimal-leading-zero {
+                list-style-type: decimal-leading-zero;
+                background-color: #5B886B;
+                padding-left: 0;
+                display: none;
+            }
+
+            .none li:hover .square, .none li:hover .lower-roman, .none li:hover .decimal-leading-zero {
+                display: block;
+            }
+
+            .none li:hover {
+                background-color: #39DE77;
+            }
+
+            li {
+                border: solid 1px black;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <ul class="none">
+            <li>Estilo de lista actual: none</li>
+            <li>Estilo ul square
+                <ul class="square">
+                  <li>Estilo de lista actual: square</li>
+                  <li>Elemento</li>
+                  <li>Elemento</li>
+                </ul>
+            </li>
+            <li>Estilo ol lower-roman
+                <ol class="lower-roman">
+                      <li>Estilo de lista actual: lower-roman</li>
+                      <li>Elemento</li>
+                      <li>Elemento</li>
+                </ol>
+            </li>
+            <li>Estilo ol decimal-leading-zero
+                <ol class="decimal-leading-zero">
+                  <li>Estilo de lista actual: decimal-leading-zero</li>
+                  <li>Elemento</li>
+                  <li>Elemento</li>
+                </ol>
+            </li>
+        </ul>
+
+    </body>
+</html>
